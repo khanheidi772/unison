@@ -1,0 +1,12 @@
+cabal-version: 2.4
+name: geralt-pwn
+version: 0.1.0.0
+build-type: Custom
+
+custom-setup
+  setup-depends: base, Cabal, process
+
+executable geralt-pwn
+  main-is: Main.hs
+  build-depends: base
+  default-language: Haskell2010
